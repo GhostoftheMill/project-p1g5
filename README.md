@@ -17,22 +17,25 @@ Where to find and how to deploy.
 
 ## Authors
 
-Biggs, Alexander
+### Biggs, Alexander
 <a href="https://github.com/afbiggs">GitHub: afbiggs</a>
 
-Carter, Adrian
+### Carter, Adrian
 <a href="https://github.com/carter-adrian">GitHub: carter-adrian</a>
 
-Haslam, Gaye
+### Haslam, Gaye
+<br></br>
+<img src="https://avatars.githubusercontent.com/u/112979481?v=4" alt="Picture of talented woman" width="200" height="200">
+<br></br>
 <a href="https://github.com/gayegh">GitHub: GayeGH</a>
 
-Starkweather, Tessa
+### Starkweather, Tessa
 <br></br>
 <img src="https://avatars.githubusercontent.com/u/108361868?v=4" alt="Picture of talented woman" width="200" height="200">
 <br></br>
 <a href="https://github.com/t-starkw">GitHub: t-starkw</a>
 
-White, Kevin
+### White, Kevin
 <a href="https://github.com/ghostofthemill">GitHub: GhostoftheMill</a>
 
 ## Help
