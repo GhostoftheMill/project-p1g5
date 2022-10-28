@@ -27,6 +27,9 @@ Haslam, Gaye
 <a href="https://github.com/gayegh">GitHub: GayeGH</a>
 
 Starkweather, Tessa
+<br></br>
+<img src="https://avatars.githubusercontent.com/u/108361868?v=4" alt="Picture of talented woman" width="200" height="200">
+<br></br>
 <a href="https://github.com/t-starkw">GitHub: t-starkw</a>
 
 White, Kevin
