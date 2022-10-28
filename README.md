@@ -18,19 +18,19 @@ Where to find and how to deploy.
 ## Authors
 
 Biggs, Alexander
-GitHub Repo Placeholder
+<a href="https://github.com/afbiggs">GitHub: afbiggs</a>
 
 Carter, Adrian
-GitHub Repo Placeholder
+<a href="https://github.com/carter-adrian">GitHub: carter-adrian</a>
 
 Haslam, Gaye
-GitHub Repo Placeholder
+<a href="https://github.com/gayegh">GitHub: GayeGH</a>
 
 Starkweather, Tessa
-GitHub Repo Placeholder
+<a href="https://github.com/t-starkw">GitHub: t-starkw</a>
 
 White, Kevin
-GitHub Repo Placeholder
+<a href="https://github.com/ghostofthemill">GitHub: GhostoftheMill</a>
 
 ## Help
 
