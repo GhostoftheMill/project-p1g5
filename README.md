@@ -18,9 +18,15 @@ Where to find and how to deploy.
 ## Authors
 
 ### Biggs, Alexander
+<br></br>
+<img src="https://static.wikia.nocookie.net/prankshuplaber/images/9/97/Stick_man.png/revision/latest?cb=20181211190746" alt="Picture of man" width="200" height="200">
+<br></br>
 <a href="https://github.com/afbiggs">GitHub: afbiggs</a>
 
 ### Carter, Adrian
+<br></br>
+<img src="https://static.wikia.nocookie.net/prankshuplaber/images/9/97/Stick_man.png/revision/latest?cb=20181211190746" alt="Picture of man" width="200" height="200">
+<br></br>
 <a href="https://github.com/carter-adrian">GitHub: carter-adrian</a>
 
 ### Haslam, Gaye
@@ -36,6 +42,9 @@ Where to find and how to deploy.
 <a href="https://github.com/t-starkw">GitHub: t-starkw</a>
 
 ### White, Kevin
+<br></br>
+<img src="https://static.wikia.nocookie.net/prankshuplaber/images/9/97/Stick_man.png/revision/latest?cb=20181211190746" alt="Picture of man" width="200" height="200">
+<br></br>
 <a href="https://github.com/ghostofthemill">GitHub: GhostoftheMill</a>
 
 ## Help
