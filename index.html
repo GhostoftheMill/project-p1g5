@@ -8,16 +8,45 @@
     <style rel="stylesheet" type="text/css" src="./Assets/style.css"></style>
     <title>Project Pigs Untitled Project</title>
 </head>
-<header>
 
-</header>
 <body>
-    <section class="col-6">
+    <header class="container-fluid">
+        <h1>insert funky fresh page title here</h1>
+    </header>
+<!-- long top column with initials/name prompt -->
+    <div id="container1" class="container-fluid">
+        <!-- description of app -->
+        <h2>this is our app. it does things</h2>
+        <!-- textbox and submit button -->
+        <p>type in stuff</p>
+        <!-- user input first name -->
+        <form id="name">
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" value="placeholder"><br>
+        </form>
 
-    </section>
-    <section class="col-6">
+        <form id="booze">
+            <!-- alch or no alch in beverage -->
+            <label for="booze">do u prefer alcholic bevvy reccomendations?</label><br>
+            <input type="radio" id="yes" name="booze" value="yes booze me up">
+            <label for="yes">Yes, booze me up</label><br>
 
-    </section>
+            <input type="radio" id="no" name="booze" value="no thanks">
+            <label for="no">No thanks</label><br>
+            <!-- submission btn -->
+            <input type="submit" value="Submit">
+        </form>    
+    </div>
+    <div id="output" class="container">
+        <div class="row">
+            <div id="drinkContainer" class="col-sm">
+                <h2>Here is ur drink reccomendation</h2>
+            </div>
+            <div id="mealContainer" class="col-sm">
+                <h2>here is ur food reccomendation</h2>
+            </div>
+        </div>
+
     <script src="./Assets/script.js"></script>
 </body>
 </html>

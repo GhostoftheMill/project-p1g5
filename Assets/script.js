@@ -36,7 +36,7 @@ function fetchDrink(firstLetter) {
                 console.error(err);
             })
 }
-fetchDrink("m"); 
+fetchDrink("c"); 
 
 // fetching meal data !!! facing CORS errors??
 // function fetchMeal(firstLetter) {
