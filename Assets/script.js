@@ -7,6 +7,14 @@ var mealApiRoot = 'http://www.themealdb.com/api/json/v1/1/';
 // event listener for search bar
 
 // randomization function
+function randomDrink(object) {
+    var length = object.drinks.length;
+    console.log(length);
+    var randIndex = Math.floor(Math.random() * length);
+    console.log(randIndex);
+    var randDrinkArray = object.drinks[randIndex];
+    console.log(randDrinkArray);
+}
 
 // fetching drink data
 function fetchDrink(firstLetter) {
@@ -22,7 +30,7 @@ function fetchDrink(firstLetter) {
             .then(
                 function(drinks) {
                 console.log("DATA", drinks);
-                    //call randomization function
+                    randomDrink(drinks);
             })
             .catch(function(err) {
                 console.error(err);
@@ -30,26 +38,26 @@ function fetchDrink(firstLetter) {
 }
 fetchDrink("m"); 
 
-// fetching meal data
-function fetchMeal(firstLetter) {
-    var letter= firstLetter;
-    var apiUrl = `${mealApiRoot}search.php?f=${ letter }`;
-    console.log(apiUrl);
+// fetching meal data !!! facing CORS errors??
+// function fetchMeal(firstLetter) {
+//     var letter= firstLetter;
+//     var apiUrl = `${mealApiRoot}search.php?f=${ letter }`;
+//     console.log(apiUrl);
 
-    fetch(apiUrl)
-        .then(
-            function(res) {
-                return res.json();
-            })
-            .then(
-                function(meals) {
-                console.log("DATA", meals);
-                //call randomization function
-            })
-            .catch(function(err) {
-                console.error(err);
-            })
-}
-fetchMeal("m");
+//     fetch(apiUrl)
+//         .then(
+//             function(res) {
+//                 return res.json();
+//             })
+//             .then(
+//                 function(meals) {
+//                 console.log("DATA", meals);
+//                 //call randomization function
+//             })
+//             .catch(function(err) {
+//                 console.error(err);
+//             })
+// }
+// fetchMeal("m");
 
 // render randomized calls and append to existing html doc elements
