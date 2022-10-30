@@ -1,0 +1,34 @@
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #f8f8ff;
+}
+
+h1, h2, h3, h4, .text-white {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+ body {
+    height: 100%;
+    background-color: cadetblue;
+    background-image: url("./img/Food_BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+
+.food_footer {
+    background-image: url("./img/meal_footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.drink_footer {
+    background-image: url("./img/Food_BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

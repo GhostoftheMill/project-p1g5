@@ -4,11 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Monsieur+La+Doulaise&family=Passions+Conflict&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <style rel="stylesheet" type="text/css" src="./Assets/style.css"></style>
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Assets/style.css"/>
+    <title>Meals and Tottie</title>
 </head>
 <body>
+    <div lass="container-fluid">
+        <div class="row navbar navbar-success bg-success">
+            <div class="col-12 text-center">
+                <h1 class="text-white">Meals and Totties</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class= "col-lg-6 bg-danger" id="food">
+            <h2 class="text-white">Search Food by First Letter</h2>
+
+                <div class="input-group">
+                    <input class="form-control-sm-3" type="text" id="enterCity"
+                        placeholder="Enter the first letter">
+                        <button type="button" id="searchBtn"
+                        class="btn btn-success"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        <div class= "col-lg-6 bg-warning" id="drink">
+        <h2 class="text-white">Search drink by First Letter</h2>
+
+            <div class="input-group">
+                <input class="form-control-sm-3" type="text" id="enterCity"
+                    placeholder="Enter the first letter">
+                    <button type="button" id="searchBtn"
+                    class="btn btn-success"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+       
     <script src="./Assets/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
+<footer class="row">
+    <div class="col-lg-6" id="food_footer"></div>
+    <div class="col-lg-6" id="drink_footer"></div>
+</footer>
 </html>
