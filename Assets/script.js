@@ -1,4 +1,4 @@
-// Listing global variables
+
 var drinkApiRoot = 'https://www.thecocktaildb.com/api/json/v1/1/';
 var mealApiRoot = 'http://www.themealdb.com/api/json/v1/1/';
 
