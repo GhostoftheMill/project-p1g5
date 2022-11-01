@@ -1,8 +1,6 @@
 # Project Title
 
-Tell me about project
-
-<img src="./Assets/projectpic.jpg" alt="Picture of Cocktail App" width="400" height="300">
+<img src="./Assets/projectpic.jpg" alt="Picture of Cocktail App" width="600" height="400">
 
 ## Description
 
