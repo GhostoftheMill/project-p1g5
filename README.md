@@ -12,12 +12,11 @@ An in-depth paragraph about your project and overview of use.
 
 Where to find and how to deploy.
 
-<a href="">Project Name</a>
+<a href="">Meals & Totties Webpage</a>
 <br></br>
-<a href="https://github.com/GhostoftheMill/project-p1g5">Project Pigs Placeholder Name</a>
+<a href="https://github.com/GhostoftheMill/project-p1g5">Meals & Totties GitHub Repository</a>
 
-## Authors
-
+## Authorscd 
 ### Biggs, Alexander
 <br></br>
 <img src="https://static.wikia.nocookie.net/prankshuplaber/images/9/97/Stick_man.png/revision/latest?cb=20181211190746" alt="Picture of man" width="200" height="200">
