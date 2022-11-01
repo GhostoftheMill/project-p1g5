@@ -25,15 +25,13 @@
     <div class="row">
         <div class= "col-lg-6 bg-danger" id="food">
             <h2 class="text-white">Search Food by First Letter</h2>
-
-                <div class="input-group">
-                    <input class="form-control-sm-3" type="text" id="enterFood"
-                        placeholder="Enter the first letter">
-                        <button type="button" id="searchBtn"
-                        class="btn btn-success"><i class="fas fa-search"></i></button>
-            </div>
+            <form id="name">
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname" value="Your Name"><br>
+                <input type="submit" id="subBtn" value="Submit">
+            </form>     
         </div>
-        <div class= "col-lg-6 bg-warning border-dark" id="drink">
+        <!-- <div class= "col-lg-6 bg-warning border-dark" id="drink">
         <h2 class="text-white">Search drink by First Letter</h2>
 
             <div class="input-group">
@@ -42,8 +40,13 @@
                     <button type="button" id="searchBtn"
                     class="btn btn-success"><i class="fas fa-search"></i></button>
         </div>
-    </div>
-       
+    </div> -->
+    <!-- <div class="input-group">
+        <input class="form-control-sm-3" type="text" id="enterFood"
+            placeholder="Enter the first letter">
+            <button type="button" id="searchBtn"
+            class="btn btn-success"><i class="fas fa-search"></i></button>
+</div> -->
 <!--
     <header class="container-fluid">
         <h1>insert funky fresh page title here</h1>
@@ -64,17 +67,17 @@
     </div>
 
     <div id="nameRec" class="container-fluid"></div>
--->
-    <!-- <div id="output" class="container">
+ -->
+    <div id="nameRec" class="container-fluid"></div>
+    <div id="output" class="container">
         <div class="row"> -->
-            <!-- <div id="drinkContainer" class="col-sm"> -->
-                <!-- <h2>Here is ur drink recommendation</h2> -->
-           <!-- </div> -->
-            <!--<div id="mealContainer" class="col-sm"> -->
-                <!-- <h2>here is ur food recommendation</h2> -->
-           <!-- </div>
+            <div id="drinkContainer" class="col-sm">
+                <h2>Here is ur drink recommendation</h2>
+           </div>
+            <div id="mealContainer" class="col-sm">
+                <h2>here is ur food recommendation</h2>
         </div>
--->
+
 
     <!-- <script src="./Assets/script.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
