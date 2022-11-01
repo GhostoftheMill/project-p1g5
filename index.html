@@ -14,7 +14,7 @@
 </head>
 
 <body>
-
+    <!-- title/ main header -->
     <div class="container-fluid">
         <div class="row navbar navbar-success"  id="navbar">
             <div class="col-12 text-center">
@@ -22,64 +22,41 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class= "col-lg-6 bg-danger" id="food">
-            <h2 class="text-white">Search Food by First Letter</h2>
-            <form id="name">
-                <label for="fname">First Name:</label><br>
-                <input type="text" id="fname" name="fname" value="Your Name"><br>
-                <input type="submit" id="subBtn" value="Submit">
-            </form>     
-        </div>
-        <!-- <div class= "col-lg-6 bg-warning border-dark" id="drink">
-        <h2 class="text-white">Search drink by First Letter</h2>
 
-            <div class="input-group">
-                <input class="form-control-sm-3" type="text" id="enterDrink"
-                    placeholder="Enter the first letter">
-                    <button type="button" id="searchBtn"
-                    class="btn btn-success"><i class="fas fa-search"></i></button>
+    <!-- subheader? -->
+    <div class="row">
+        <div class= "col-12 bg-danger text-center" id="food">
+            <h2 class="text-white">Welcome to “Meals and Totties”! Looking for a new, refreshing cocktail or mocktail idea? Need a fun appetizer to pair with your drink? Enter your name to discover new recipes for either! Not what interests you? Choose a name with a different beginning letter, or simply run the search again!</h2>
         </div>
-    </div> -->
-    <!-- <div class="input-group">
-        <input class="form-control-sm-3" type="text" id="enterFood"
-            placeholder="Enter the first letter">
-            <button type="button" id="searchBtn"
-            class="btn btn-success"><i class="fas fa-search"></i></button>
-</div> -->
-<!--
-    <header class="container-fluid">
-        <h1>insert funky fresh page title here</h1>
-    </header>
--->
-<!-- long top column with initials/name prompt -->
-    <!-- <div id="container1" class="container-fluid"> -->
-        <!-- description of app -->
-        <!-- <h2>this is our app. it does things</h2> -->
-        <!-- textbox and submit button -->
-        <!-- <p>type in stuff</p> -->
-        <!-- user input first name -->
-        <!-- <form id="name">
+
+
+<!-- user input submit and prompt -->
+    <div id="container1" class="col-md-6 offset-md-3 text-center">
+        
+        <p id="prompt">Enter your first name to discover a new beverage and appetizer! Create what pops up!</p>
+
+        <form id="name">
             <label for="fname">First Name:</label><br>
             <input type="text" id="fname" name="fname" value="Your Name"><br>
             <input type="submit" id="subBtn" value="Submit">
         </form> 
-    </div>
 
-    <div id="nameRec" class="container-fluid"></div>
- -->
-    <div id="nameRec" class="container-fluid"></div>
-    <div id="output" class="container">
-        <div class="row"> -->
-            <div id="drinkContainer" class="col-sm">
-                <h2>Here is ur drink recommendation</h2>
+    </div>
+        
+
+   
+<!-- output container -->
+    <div id="nameRec" class="col-12 text-center"></div>
+
+    <div id="output" class="col-12 text-center">
+        <div class="row">
+            <div id="drinkContainer" class="col-sm text-center">
+                <h2>Drink Recommendation</h2>
            </div>
-            <div id="mealContainer" class="col-sm">
-                <h2>here is ur food recommendation</h2>
+            <div id="mealContainer" class="col-sm text-center">
+                <h2>Meal Recommendation</h2>
         </div>
 
-
-    <!-- <script src="./Assets/script.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="./Assets/script.js"></script>

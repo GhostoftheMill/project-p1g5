@@ -52,3 +52,6 @@ h1, h2, h3, h4, .text-white {
 #drink {
     border: 5px black !important;
 }
+#container1 {
+    height: 200px;
+}
