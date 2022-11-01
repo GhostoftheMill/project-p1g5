@@ -12,9 +12,9 @@ This project is a functioning web application that upon a users input will produ
 
 Where to find and how to deploy.
 
-<a href="">Meals & Totties Webpage</a>
+<a href="https://ghostofthemill.github.io/project-p1g5/">Meals & Totties Webpage</a>
 <br></br>
-<a href="https://ghostofthemill.github.io/project-p1g5/">Meals & Totties GitHub Repository</a>
+<a href="https://github.com/GhostoftheMill/project-p1g5">Meals & Totties GitHub Repository</a>
 
 ## Authorscd 
 ### Biggs, Alexander
