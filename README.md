@@ -4,7 +4,7 @@
 
 ## Description
 
-This project is a functioning web application that upon a users input will produce a recommendation for an alcoholic beverage and meal to be paired with it. The application pulls in the data by utilizing two different API's, "The Cocktail DB" and "The Meal DB". When a user first connects to the web application they will be prompt to enter in their name or a random name into the text box. After clicking the green submit button, the application will use the first letter of the entered name to output a randomized beverage and meal that also starts with the first letter of the users input. The results populate with the name and image of the beverage and meal. 
+This project is a functioning web application that upon a users input will produce a recommendation for a cocktail and meal to be paired with it. The application pulls in the data by utilizing two different API's, "The Cocktail DB" and "The Meal DB". When a user first connects to the web application they will be prompt to enter in their name or a random name into the text box. After clicking the green submit button, the application will use the first letter of the entered name to output a randomized cocktail and meal that also starts with the first letter of the users input. The results populate with the name and image of the cocktail and meal. 
 
 ## Getting Started
 
