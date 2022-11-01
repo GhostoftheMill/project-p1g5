@@ -32,6 +32,8 @@ function handleSearchFormSubmit(e) {
     var newHeading = document.createElement('h2');
     newHeading.textContent = name + ", Here are your personalized recommendations! Enjoy!"
     nameRec.innerHTML='';
+    mealContainer.innerHTML='';
+    drinkContainer.innerHTML='';
     nameRec.append(newHeading);
     
     fetchDrink(firstLetter);
@@ -91,6 +93,7 @@ function appendDrink(object) {
     // appending elements to HTML
     drinkContainer.append(title);
     drinkContainer.append(img);
+    
 
 
 }
@@ -148,7 +151,6 @@ function appendMeal(object) {
     mealContainer.append(title);
     mealContainer.append(img);
 
+
 }
-
-// render randomized calls and append to existing html doc elements
-
+// console.log(localStorage);
