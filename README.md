@@ -2,7 +2,7 @@
 
 Tell me about project
 
-<img src="./Assets/projectpic.jpeg" alt="Picture of Cocktail App" width="400" height="300">
+<img src="./Assets/project-img.png" alt="Picture of Cocktail App" width="400" height="300">
 
 ## Description
 

@@ -118,7 +118,7 @@ function fetchMeal(firstLetter) {
                 console.error(err);
             })
 }
-// fetchMeal("m");
+
 
 // randomization function
 function randomMeal(object) {
@@ -153,4 +153,4 @@ function appendMeal(object) {
 
 
 }
-// console.log(localStorage);
+
