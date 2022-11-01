@@ -1,3 +1,11 @@
+
+const getMealBtn = document.getElementById('get_meal');
+const mealContainer = document.getElementById('get_meal');
+
+getMealBtn.addEventListener('click', () => {
+    
+})
+
 // Listing global variables
 var drinkApiRoot = 'https://www.thecocktaildb.com/api/json/v1/1/';
 var mealApiRoot = 'http://www.themealdb.com/api/json/v1/1/';
@@ -142,3 +150,4 @@ function appendMeal(object) {
 }
 
 // render randomized calls and append to existing html doc elements
+
