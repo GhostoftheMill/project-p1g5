@@ -1,10 +1,11 @@
-
+/*
 const getMealBtn = document.getElementById('get_meal');
 const mealContainer = document.getElementById('get_meal');
 
 getMealBtn.addEventListener('click', () => {
     
 })
+*/
 
 // Listing global variables
 var drinkApiRoot = 'https://www.thecocktaildb.com/api/json/v1/1/';
