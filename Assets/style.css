@@ -3,15 +3,14 @@ h1 {
     font-weight: 700;
     letter-spacing: 3px;
     color: black;
-    -webkit-text-stroke: 1px pink !important;
+    -webkit-text-stroke: .5px #FFFDD0 !important;
     background-color: goldenrod;
     border-radius: 50%;
-    text-shadow: 5px 5px 5px red, 5px 5px 5px darkslategrey;
+    text-shadow: 5px 5px 5px red, 5px 5px 5px orange;
 }
 
 h1, h2, h3, h4, .text-white {
     font-family: 'Dancing Script', cursive;
-    -webkit-text-stroke: .5px black;
 
 }
 
@@ -54,4 +53,8 @@ h1, h2, h3, h4, .text-white {
 }
 #container1 {
     height: 200px;
+}
+
+#drinkIngredients, #mealIngredients {
+    background-color: antiquewhite;
 }
