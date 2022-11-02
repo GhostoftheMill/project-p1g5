@@ -49,6 +49,11 @@ h1, h2, h3, h4, .text-white {
     padding-bottom: 10%;
 }
 
+.label {
+    opacity: .8;
+    filter: alpha(opacity=60);
+}
+
 #drink {
     border: 5px black !important;
 }
